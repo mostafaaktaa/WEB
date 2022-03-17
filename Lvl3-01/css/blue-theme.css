@@ -1,0 +1,40 @@
+/*start default theme*/
+
+ /*Active link color*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+.features .feat span.glyphicon:hover,
+.option-box .gear-check,
+.scroll-to-top
+{
+ 	
+	background-color: #009AFF;
+
+}
+
+.navbar-inverse .navbar-brand span,
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left ,
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right,
+.about h1 span,
+.features .feat span.glyphicon,
+.testim span,
+.footer h3,
+.footer .copyright span
+{
+  	color  :#009AFF;
+}
+
+
+.dropdown-menu{
+ 	border-top: 3px solid #009AFF; 
+}
+
+.features .feat:hover,
+.option-box .color-box
+{
+	border:3px solid #009AFF;
+}

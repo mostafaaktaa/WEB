@@ -1,0 +1,20 @@
+/*start media query*/
+@media (max-width: 767px){
+	.navbar-inverse .navbar-nav > li > a
+	{
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	.subscribe .form-inline .form-control{
+		width: 80%;
+		margin:10% 10% auto;
+	}
+	.subscribe .btn-danger{
+		margin-top: 20px;
+	}
+	.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse{
+		max-height: none;
+	}
+}
+
+/*End media query*/

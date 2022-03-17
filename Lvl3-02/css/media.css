@@ -1,0 +1,75 @@
+/*start media query*/
+
+/*@media (max-width: 767px){
+	.navbar-inverse .navbar-nav > li > a
+	{
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	.subscribe .form-inline .form-control{
+		width: 80%;
+		margin:10% 10% auto;
+	}
+	.subscribe .btn-danger{
+		margin-top: 20px;
+	}
+	.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse{
+		max-height: none;
+	}
+}*/
+
+@media only screen and  (min-width: 768px) and (max-width: 991px){
+	.social-section .social-icons a i{
+	    padding: 10px 0px 0 16px;
+		}
+	
+	.sub-list .sub-list-right{
+		padding: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 767px)
+{
+	.social-section .social-icons a i
+	{    
+		padding: 10px 5px 0 5px;
+    	font-size: 2em !important;
+	}
+
+	.social-section .social-icons {
+			text-align: left;
+	}
+
+	.about1 ul li a{
+		display: inline-block;
+		float: left;
+		margin-bottom: 40px;
+		width: 30%;
+		margin-right: 3%;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	.about1 .tab-content img{
+		float: none;
+		display: block;
+		width: 50%
+	}
+	.about1 .tab-content .right-side{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.sub-list .sub-list-right{
+		padding: 10px;
+	}
+	.pricing-options .angebot,
+	.pricing-options .angebot2{
+		width: 50%;
+		margin: 50px auto
+	}
+}
+
+
+/*End media query*/
